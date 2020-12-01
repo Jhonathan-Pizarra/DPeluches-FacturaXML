@@ -1,0 +1,29 @@
+factura{
+    margin: 25px;
+}
+.padre {
+  display: flex;
+  justify-content: center;
+}
+.hijo {
+  padding: 10px;
+  margin: 10px;
+}
+
+img{
+    padding-right: 130px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+.border{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.precio{
+    font-size: 30px;
+}

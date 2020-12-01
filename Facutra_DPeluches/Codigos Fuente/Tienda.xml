@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="xmlEstilos.css"?>
+
+<factura xmlns="http://www.w3.org/1999/xhtml">
+    <div class="padre border">
+        <div class="hijo">
+            <img  src="foto.png" alt="ssss" height="150"/> 
+        </div>
+        <div class="hijo">
+            <h1>Factura</h1>
+        </div>
+    </div>
+    <div class="border">
+        
+        <div class="padre">
+            <div class="hijo">
+                <p>
+                    <b>Fecha:</b> <fecha> <anio>2020</anio> <mes>Enero</mes> <dia>31</dia> </fecha>
+                </p>
+                <p>
+                    <b>Nombre y Apellido:</b> <nombre>Anthony</nombre> <apellido>Tacuri</apellido>
+                </p>
+                <p>
+                    <b>Dirección:</b> <direccion>Quito</direccion>
+                </p>
+                <p>
+                    <b>Codigo:</b> <codigo>SRI3635</codigo>
+                </p>
+            </div>
+            <div class="hijo">
+                <p>
+                    <b>RUC:</b> <ruc>1726896476001</ruc>
+                </p>
+                <p>
+                    <b>Cedula:</b> <cedula>11721731998</cedula>
+                </p>    
+                <p>
+                    <b>Telefono:</b> <telefono>convencional</telefono>
+                </p>
+                <p>
+                    <b>Forma de pago:</b> <forma_pago>Efectivo</forma_pago>>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="border">
+        <div class="padre">
+            <div class="hijo">
+                <p>
+                    <b>Detalle:</b> <detalle>Juguetes</detalle>
+                </p>
+                <p class="precio">
+                    <b>Precio:</b>  $ <total>350.4</total>
+                </p>
+            </div>
+            <div class="hijo">
+                <p>
+                    <b>Cantidad:</b> <cantidad>80</cantidad>
+                </p>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+</factura>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<factura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="XSD1.xsd">
+    <codigo>SRI3635</codigo>
+    <ruc>1726896476001</ruc>
+    <cedula>11721731998</cedula>
+    <nombre>Anthony</nombre>
+    <apellido>Tacuri</apellido>
+    <fecha>
+        <anio>2020</anio>
+        <mes>Enero</mes>
+        <dia>31</dia>
+    </fecha>
+    <telefono>convencional</telefono>
+    <direccion>Quito</direccion>
+    <cantidad>80</cantidad>
+    <detalle>Juguetes</detalle>
+    <forma_pago>Efectivo</forma_pago>
+    <total>350.4</total>
+</factura>
